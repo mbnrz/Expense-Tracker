@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("./assets/image/back.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  /* font-weight: initial; */
+  font-family: 'Nunito', sans-serif;
+}
+
+.row {
+  /* border: 1px solid gray; */
+  padding: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.727);
+  background-color: #ddd;
+}
