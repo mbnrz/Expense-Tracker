@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+#main {
+  background-color: #d8ba94;
+  padding: 40px;
+  margin: 40px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.527);
+}
+#title {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+#table {
+  margin: 30px 0 0 0;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 5px 20px;
+  box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.227);
+}
+#underline {
+  width: 3rem;
+  height: 2px;
+  margin-top: 35px;
+  background: #d8ba94;
+  transform: rotate(90deg);
+}
+#list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#item {
+  box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.127);
+
+  background-color: #ebebeb;
+  width: 100%;
+  list-style: none;
+  margin: 5px 0;
+  padding: 2px 10px;
+  border-radius: 4px;
+}
+.minus {
+  border-right: 5px solid red;
+}
+.plus {
+  border-right: 5px solid #00653d;
+}
+#item div {
+  display: flex;
+  justify-content: space-between;
+}
+#deleteBtn {
+  position: absolute;
+  margin-top: 2px;
+  margin-left: -36px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: red;
+  color: #ebebeb;
+  border: none;
+  font-weight: bold;
+}
+#addBtn {
+  background-color: transparent;
+  color: #00653d;
+  border: 2px solid #00653d;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 3px;
+}
+#addBtn:hover {
+  background-color: #00653d;
+  color: white;
+  box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.327);
+  transform: scale(0.971);
+}
+input {
+  border-radius: 4px;
+  border: none;
+  padding: 5px;
+}
+input:focus {
+  box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.327);
+}

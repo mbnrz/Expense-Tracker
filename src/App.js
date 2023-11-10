@@ -1,18 +1,15 @@
 import "./App.css";
-import Header from "./components/Header";
-import Headerr from "./componentsFa/Headerr";
+import Home from "./Router/Home";
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="row">
+    <div id="test">
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Header />}/>
-        <Route path='/Fa' element={<Headerr/>}/>
+        <Route path='/' element={<Home />}/>
       </Routes>
       </BrowserRouter>
-      
     </div>
   );
 }

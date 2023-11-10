@@ -1,0 +1,6 @@
+#rooot {
+  display: flex;
+  justify-content: center;
+  color: #393939;
+  background: #ffffff url(../assets/image/back.svg) center center/cover repeat;
+}
